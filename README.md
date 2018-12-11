@@ -75,4 +75,4 @@ plopr --freestyle
 
 Please feel free to contribute. This generator was made to provide a basic starting point, however it is easily extensible.
 
-made with :purple_heart:.
+made with :purple_heart: by @theboyWhoCriedWoolf.
