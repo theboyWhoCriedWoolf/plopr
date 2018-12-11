@@ -15,7 +15,7 @@ yarn add plopr --dev
 
 ### Getting Started
 
-```json
+```js
 "Scripts": {
     // key can be any name or value you wish
     "plopr": "plopr"
