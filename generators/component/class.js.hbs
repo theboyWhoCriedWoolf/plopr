@@ -1,0 +1,37 @@
+/**
+*
+* {{ properCase name }}
+*
+*/
+
+import React, { {{{ type }}} } from 'react';
+// import PropTypes from 'prop-types';
+// import styled from 'styled-components';
+
+{{#if wantMessages}}
+import { FormattedMessage } from 'react-intl';
+import messages from './messages';
+{{/if}}
+
+/* eslint-disable react/prefer-stateless-function */
+class {{ properCase name }} extends {{{ type }}} {
+
+    static propTypes = {};
+    static defaultProps = {};
+
+    render() {
+        return (
+            <div>
+                {{#if wantMessages}}
+                    <FormattedMessage {...messages.header} />
+                {{else}}
+                    This is the {{ properCase name }} component!
+                {{/if}}
+            </div>
+        );
+    }
+}
+
+{{ properCase name }}.propTypes = {};
+
+export default {{ properCase name }};
