@@ -68,11 +68,13 @@ plopr --appSrc={your application src folder}
 // allows you to change the default output path of components
 // - containers = {appSrc}/containers
 // - components = {appSrc}/components
-plopr --freestyle
+plopr --freestyle˚
 ```
 
 ## Contribution
 
 Please feel free to contribute. This generator was made to provide a basic starting point, however it is easily extensible.
 
-made with :purple_heart: by @theboyWhoCriedWoolf.
+---
+
+###### made with :purple_heart: by @theboyWhoCriedWoolf.
