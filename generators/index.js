@@ -43,7 +43,8 @@ module.exports = plop => {
       '**.js',
     )}`;
 
-    exec(`prettier --write "${folderPath}" && eslint "${folderPath}" --fix `);
+    exec(`prettier --write "${folderPath}" && eslint ${folderPath} --fix`);
     return folderPath;
   });
+
 };

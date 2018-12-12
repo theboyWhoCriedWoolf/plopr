@@ -77,4 +77,4 @@ Please feel free to contribute. This generator was made to provide a basic start
 
 ---
 
-###### made with :purple_heart: by @theboyWhoCriedWoolf.
+###### made with :purple_heart: @theboyWhoCriedWoolf.
