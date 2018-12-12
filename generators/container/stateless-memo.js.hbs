@@ -41,6 +41,8 @@ function {{ properCase name }}() {
             {{/if}}
             {{#if wantMessages}}
                 <FormattedMessage {...messages.header} />
+            {{else}}
+                This is the {{ properCase name }} container!
             {{/if}}
         </div>
     );

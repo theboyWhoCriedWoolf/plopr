@@ -28,26 +28,26 @@ import messages from './messages';
 /* eslint-disable react/prefer-stateless-function */
 export class {{ properCase name }} extends {{{ type }}} {
 
-static propTypes = {};
-static defaultProps = {};
+  static propTypes = {};
+  static defaultProps = {};
 
-render() {
-return (
-<div>
-  {{#if wantHeaders}}
-  <Helmet>
-    <title>{{properCase name}}</title>
-    <meta name="description" content="Description of {{properCase name}}" />
-  </Helmet>
-  {{/if}}
-  {{#if wantMessages}}
-  <FormattedMessage {...messages.header} />
-  {{/if}}
-</div>
-);
+  render() {
+    return (
+        <div>
+        {{#if wantHeaders}}
+        <Helmet>
+          <title>{{properCase name}}</title>
+          <meta name="description" content="Description of {{properCase name}}" />
+        </Helmet>
+        {{/if}}
+        {{#if wantMessages}}
+          <FormattedMessage {...messages.header} />
+        {{else}}
+            This is the {{ properCase name }} container!
+        {{/if}}
+      </div>
+    );
+  }
 }
-}
-
-
 
 export default {{ properCase name }};
