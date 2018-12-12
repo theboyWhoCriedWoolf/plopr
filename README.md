@@ -65,7 +65,8 @@ Plopr allows you to set two options:
 ```js
 // set the app src folder - (default is src)
 plopr --appSrc={your application src folder}
-// allows you to change the default output path of components
+// Allows you to dynamically select your output location
+// rather than using the defaults below:
 // - containers = {appSrc}/containers
 // - components = {appSrc}/components
 plopr --freestyle˚
